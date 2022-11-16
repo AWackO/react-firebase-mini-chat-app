@@ -1,0 +1,25 @@
+.messages {
+  background-color: #dfa12f;
+  padding: 10px;
+  height: 75%;
+  overflow: scroll;
+  max-height: 75%;
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+  .messages {
+    height: 100%;
+    max-height: 60vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .messages {
+    height: 100%;
+    max-height: 80vh;
+  }
+}
