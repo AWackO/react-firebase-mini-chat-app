@@ -1,8 +1,8 @@
-# Mini Chat App
+## Mini Chat App
 
 This project was created using HTML, CSS, JavaScript, React and using Firebase for the backend.
 
-## Install all required packages with npm install and run the program with npm start
+# Install all required packages with npm install and run the program with npm start
 
 In the app you can sign up, sign in and sign in using your google account. 
 After signin in you gain access to the main home screen and basic functionallity
