@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Mini Chat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using HTML, CSS, JavaScript, React and using Firebase for the backend.
 
-## Available Scripts
+## Install all required packages with npm install and run the program with npm start
 
-In the project directory, you can run:
+In the app you can sign up, sign in and sign in using your google account. 
+After signin in you gain access to the main home screen and basic functionallity
 
-### `npm start`
+# Using the user search bar on the sidebar you can search for other users
+On the left upper side of the home screen you find the user search input where you can search for other users and start a chat with them. Search by typing the name and pressing the enter key.
+The results will appear right below the search bar and you can pick whichever user you want to start a chat with.
+when clicking on the user the focus will pan to the chat and the latest message will be loaded.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The sidebar can be hidden/shown by clicking the black arrow on the sidebar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Chatting with other users
+In the main window you can type your messages and send them by clicking "send" button or pressing the "Enter" key, also you can send images by clicking the photo image next to "send" button and clicking the "send" button or pressing the "enter" key.
 
-### `npm test`
+# When done you can find the "sign out" button at the top left of the window, at the top of the sidebar. Pressing the "sign out" button will return to the sign in menu.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Firebase config for connecting to the database can be found in the firebase.js files. Use your own firebase db if possible, if not mine is at your service.
